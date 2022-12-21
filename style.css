@@ -1,113 +1,38 @@
-.navbar{
-    float: right;
-    margin : 20px;
-  }
-  
-  .nav-item{
-    text-decoration:none;
-    color : black;
-    margin-right: 15px;
-  }
-  
-  .nav-item:hover{
-    text-decoration: underline;
-  }
-  
-  body{
-    display:contents;
-  }
-  
-  .main{
-    margin-top : 220px;
-    text-align : center;
-  }
-  
-  .input-area{
-    margin-top:20px;
-  }
-  
-  .input-box{
-    width: 584px;
-    height: 46px;
-    border-radius: 24px;
-    border: 1px solid #dfe1e5;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  
-  .search-icon{
-    position: relative;
-    left: 40px;
-    color: #9aa0a6;
-    
-  }
-  .mic-icon{
-     position: relative;
-    right: 40px;
-    color: #9aa0a6;
-  }
-  
-  .button-area{
-        padding-top: 18px;
-  }
-  
-  .button-style{
-    height: 36px;
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    font-family: arial,sans-serif;
-    padding: 0 16px;
-    font-size: 14px;
-    margin: 11px 4px;
-  }
-  .button-style:hover{
-        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-      background-color: #f8f9fa;
-      border: 1px solid #dadce0;
-      color: #202124;
-  }
-  
-  .language-area{
-    margin-top: 18px;
-  }
-  .language{
-    text-decoration: none;
-    padding: 0 3px;
-    color: #1a0dab;
-  }
-  
-  .footer{
-    position: absolute;
-    bottom: 0px;
-    background: #f2f2f2;
-    width: 100%;
-  }
-  
-  .first-line{
-    padding: 15px 30px;
-    border-bottom: 1px solid #dadce0;
-        font-size: 15px;
-      color: #70757a;
-  }
-  
-  .second-line{
-     padding: 15px 30px;
-     font-size: 14px;
-    color: #70757a;
-  }
-  
-  .second-line-second{
-    float:right;
-    
-  }
-  
-  .second-item{
-    text-decoration:none;
-    color: #70757a;
-    margin-right: 15px;
-  }
-  
-  .second-item:hover{
-      text-decoration: underline;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Hahmlet', serif;
+}
+.title-t4{
+    color: white;
+    background-color: tomato;
+    font-size: 24px;
+    padding: 4px 14px;
+    border-radius: 8px;
+}
+
+.bg {
+    width: 360px;
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+}
+
+.msg {
+    font-weight: bold;
+}
+
+.bucket {
+    width: 160px;
+    height: 160px;
+}
+
+.img1 {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+    background-size: cover;
+    background-position: center;
+}
+
